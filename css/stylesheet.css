@@ -1,0 +1,388 @@
+body{
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+#img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/foto1.png");
+}
+#down {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 90px;
+    color: white;
+}
+#about{
+     width: 100%;
+     height: auto;
+     padding-top: 60px;
+     background-color: #f2f2f2;
+     text-align: center;
+     font-size: 20px;
+ }
+#mywork{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#portfolio{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 60px;
+}
+#portfolio1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 1-------------------------------------------------*/
+#project1{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/bos.jpg");
+    background-size: cover;
+    margin: 100px;
+    -webkit-box-shadow: 0 7px 4px #777;
+    -moz-box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+}
+#project1:hover{
+    box-shadow: inset 0 0 0 8px white;
+    background-color: black;
+    opacity: 0.7;
+}
+#project1 .text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    visibility:hidden;
+}
+#project1:hover .text{
+    visibility:visible;
+}
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 1-------------------------------------------------*/
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 2-------------------------------------------------*/
+#project2{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/bos.jpg");
+    background-size: cover;
+    margin: 100px;
+    -webkit-box-shadow: 0 7px 4px #777;
+    -moz-box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+}
+#project2:hover{
+    box-shadow: inset 0 0 0 8px white;
+    background-color: black;
+    opacity: 0.7;
+}
+#project2 .text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    visibility:hidden;
+}
+#project2:hover .text{
+    visibility:visible;
+}
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 2-------------------------------------------------*/
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 3-------------------------------------------------*/
+#project3{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/bos.jpg");
+    background-size: cover;
+    margin: 100px;
+    -webkit-box-shadow: 0 7px 4px #777;
+    -moz-box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+}
+#project3:hover{
+    box-shadow: inset 0 0 0 8px white;
+    background-color: black;
+    opacity: 0.7;
+}
+#project3 .text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    visibility:hidden;
+}
+#project3:hover .text{
+    visibility:visible;
+}
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 3-------------------------------------------------*/
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 4-------------------------------------------------*/
+#project4{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/bos.jpg");
+    background-size: cover;
+    margin: 100px;
+    -webkit-box-shadow: 0 7px 4px #777;
+    -moz-box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+}
+#project4:hover{
+    box-shadow: inset 0 0 0 8px white;
+    background-color: black;
+    opacity: 0.7;
+}
+#project4 .text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    visibility:hidden;
+}
+#project4:hover .text{
+    visibility:visible;
+}
+/*-----------------------------------------------HOVER VOOR PORTFOLIO 4-------------------------------------------------*/
+#contact{
+    width: 100%;
+    color: black;
+    height: 700px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+/*-----------------------------------------------FORM-------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+    color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+}
+header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+
+    background: transparent;
+    outline: none;
+    color: #726659;
+
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+
+    border: solid 1px #b3aca7;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 502px;
+
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+
+    outline:none;
+    cursor: pointer;
+
+    border: solid 1px #b3aca7;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+/*-----------------------------------------------FORM-------------------------------------------------------------------*/
+#footer{
+    height: 80px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#copyright{
+    color: black;
+    padding-top: 30px;
+    text-align: end;
+    padding-right: 50px;
+}
+
+/*------------------------------------------------FADE IN---------------------------------------------------------------*/
+
+.test p {
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
